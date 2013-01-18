@@ -12,7 +12,6 @@
 		3516AE4516A98F5E00D4DB97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3516AE4416A98F5E00D4DB97 /* CoreGraphics.framework */; };
 		3516AE4B16A98F5E00D4DB97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3516AE4916A98F5E00D4DB97 /* InfoPlist.strings */; };
 		3516AE4D16A98F5E00D4DB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3516AE4C16A98F5E00D4DB97 /* main.m */; };
-		3516AE5116A98F5E00D4DB97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3516AE5016A98F5E00D4DB97 /* AppDelegate.m */; };
 		3516AE5316A98F5E00D4DB97 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3516AE5216A98F5E00D4DB97 /* Default.png */; };
 		3516AE5516A98F5E00D4DB97 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3516AE5416A98F5E00D4DB97 /* Default@2x.png */; };
 		3516AE5716A98F5E00D4DB97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3516AE5616A98F5E00D4DB97 /* Default-568h@2x.png */; };
@@ -27,8 +26,6 @@
 		3516AE4A16A98F5E00D4DB97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3516AE4C16A98F5E00D4DB97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3516AE4E16A98F5E00D4DB97 /* ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-Prefix.pch"; sourceTree = "<group>"; };
-		3516AE4F16A98F5E00D4DB97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3516AE5016A98F5E00D4DB97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3516AE5216A98F5E00D4DB97 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3516AE5416A98F5E00D4DB97 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3516AE5616A98F5E00D4DB97 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -78,8 +75,6 @@
 		3516AE4616A98F5E00D4DB97 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				3516AE4F16A98F5E00D4DB97 /* AppDelegate.h */,
-				3516AE5016A98F5E00D4DB97 /* AppDelegate.m */,
 				3516AE4716A98F5E00D4DB97 /* Supporting Files */,
 			);
 			path = ios;
@@ -165,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3516AE4D16A98F5E00D4DB97 /* main.m in Sources */,
-				3516AE5116A98F5E00D4DB97 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
