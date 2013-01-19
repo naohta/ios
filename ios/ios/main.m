@@ -6,6 +6,9 @@ int main(int argc, char *argv[])
     @autoreleasepool {
         NSLog(@"Hello world!");
         //use_NSDate();
-        use_NSDate2();
+        //use_NSDate2();
+        float point = dayStartPoint(nil);
+        NSLog(@"%f",point);
+        NSLog(@"%f",dayStartPoint(nil));
     }
 }
